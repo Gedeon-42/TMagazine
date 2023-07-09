@@ -71,8 +71,8 @@
   padding: 20px 40px;
 }
 .post-container {
-  border: 1px solid red;
   flex-basis: 70%;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .post-container h1 {
   font-size: 24px;
@@ -85,7 +85,7 @@
 }
 
 .post-content img {
-  width: 400px;
+  width: 380px;
   height: 250px;
   border-radius: 7px;
 }
@@ -125,7 +125,7 @@
   font-weight: 400;
 }
 .related-post {
-  border: 1px solid black;
+  flex-basis: 35%;
 }
 .related-post h2 {
   text-transform: capitalize;
@@ -146,4 +146,81 @@
   color: white;
   text-decoration: none;
   text-transform: capitalize;
+}
+.related-desc {
+  background-color: white;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.related-desc ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.related-desc ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  padding: 2px 8px;
+}
+.related-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+.related-link {
+  display: block;
+  flex-basis: 50%;
+  margin-left: 10px;
+}
+.related-link h3 {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+.related-link a {
+  text-decoration: none;
+  color: black;
+  height: 80px;
+}
+.video-part {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 90vh;
+}
+.video-container {
+  display: flex;
+}
+.main-video {
+  flex-basis: 60%;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.main-video video {
+  width: 95%;
+  height: 95%;
+  border-radius: 7px;
+}
+.related-video {
+  flex-basis: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.video-desc {
+  width: 250px;
+  height: 250px;
+  margin: 2px 4px;
+  padding: 2px 8px;
+}
+.video-desc a {
+  color: white;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-decoration: none;
+}
+.video-desc video {
+  width: 240px;
+  height: 200px;
+  border-radius: 7px;
 }

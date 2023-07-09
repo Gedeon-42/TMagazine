@@ -122,7 +122,101 @@ const Recentpost = () => {
               <FaInstagram /> | instagram <span> 24k</span>
             </a>
           </div>
-          <div className="related-desc"></div>
+          <div className="related-desc">
+            <ul>
+              <li>
+                <a href="">popular</a>
+              </li>
+              <li>
+                <a href="">feature</a>
+              </li>
+              <li>
+                <a href="">commets</a>
+              </li>
+            </ul>
+            <div className="related-container">
+              <div className="related-content">
+                <img
+                  src="footbalimg/ferwafa3.jpg"
+                  style={{
+                    width: "150px",
+                    height: "100px",
+                    borderRadius: "7px",
+                  }}
+                />
+                <div className="related-link">
+                  <a href="" className="category-link">
+                    volleyball
+                  </a>
+                  <h3>
+                    <a href="">
+                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div className="related-content">
+                <img
+                  src="footbalimg/ferwafa3.jpg"
+                  style={{
+                    width: "150px",
+                    height: "100px",
+                    borderRadius: "7px",
+                  }}
+                />
+                <div className="related-link">
+                  <a href="" className="category-link">
+                    volleyball
+                  </a>
+                  <h3>
+                    <a href="">
+                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div className="related-content">
+                <img
+                  src="footbalimg/Ferwafa1.jpg"
+                  style={{
+                    width: "150px",
+                    height: "100px",
+                    borderRadius: "7px",
+                  }}
+                />
+                <div className="related-link">
+                  <a href="" className="category-link">
+                    volleyball
+                  </a>
+                  <h3>
+                    <a href="">
+                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div className="related-content">
+                <img
+                  src="footbalimg/ferwafa5.jpg"
+                  style={{
+                    width: "150px",
+                    height: "100px",
+                    borderRadius: "7px",
+                  }}
+                />
+                <div className="related-link">
+                  <a href="" className="category-link">
+                    volleyball
+                  </a>
+                  <h3>
+                    <a href="">
+                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
