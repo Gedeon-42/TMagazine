@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -66,4 +65,85 @@
   height: 100%;
   border-end-end-radius: 12px;
   border-top-right-radius: 12px;
+}
+.recent-post-container {
+  display: flex;
+  padding: 20px 40px;
+}
+.post-container {
+  border: 1px solid red;
+  flex-basis: 70%;
+}
+.post-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+}
+.post-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.post-content img {
+  width: 400px;
+  height: 250px;
+  border-radius: 7px;
+}
+.post-desc h3 {
+  text-transform: capitalize;
+  font-size: 23px;
+}
+.category-link {
+  text-decoration: none;
+  background-color: dodgerblue;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding: 0.3px 12px;
+  font-size: 14px;
+
+  margin-bottom: 2px;
+}
+.post-desc p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 10px 4px;
+}
+.post-desc {
+  margin-left: 20px;
+  flex-basis: 60%;
+}
+.readmore {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.readmore span {
+  font-size: 12px;
+  font-weight: 400;
+}
+.related-post {
+  border: 1px solid black;
+}
+.related-post h2 {
+  text-transform: capitalize;
+  margin: 10px 5px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 21px;
+  font-weight: 500px;
+}
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-link {
+  background-color: dodgerblue;
+  margin: 8px;
+  padding: 10px 18px;
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
 }

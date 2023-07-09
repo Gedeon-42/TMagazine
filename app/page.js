@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { resolve } from "styled-jsx/css";
 import Thumbnail from "./components/Thumbnail";
+import Recentpost from "./components/recentpost";
 
 async function fetchrepos() {
   const response = await fetch("https://api.github.com/users/Gedeon-42/repos");
@@ -11,9 +12,11 @@ async function fetchrepos() {
 const Homepage = async () => {
   const repos = await fetchrepos();
   //console.log(repos);
+
   return (
     <div>
       <Thumbnail />
+      <Recentpost />
       <div>
         {repos.map((repo) => (
           <div key={repo.id}>
