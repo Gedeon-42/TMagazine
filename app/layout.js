@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "daily magazine sport",
+  title: "Daily mangazine",
   description: "sport is a key",
   keywords: " mukura victory sport, rayon sport ,umupira wo murwanda",
 };

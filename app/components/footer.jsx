@@ -1,7 +1,8 @@
+import { FaEnvelope } from "react-icons/fa";
+
 const Footerbar = () => {
   return (
     <section className="footer">
-      footer bar
       <div className="footerbar">
         <div className="about-us">
           <h2>About Tsinda</h2>
@@ -63,7 +64,16 @@ const Footerbar = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-news"></div>
+        <div className="footer-news">
+          <h2>news letter</h2>
+          <p>Subscribe to our news letter</p>
+          <form method="POST">
+            <input type="email" placeholder="Enter your Email " />
+            <button>
+              <FaEnvelope />
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );
