@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ubureyo buravukanwa",
+    "date": "26,january,2023",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./footbalimg/arsenal3.jpg"
+  },
+  {
+    "name": "amavubi yabonye umutoza",
+    "date": "20,april,2023",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "/footbalimg/ferwafa1.jpg"
+  },
+  {
+    "name": "amavubi yatinze libia",
+    "date": "26,july,2023",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "/footbalimg/arsenal2.jpg"
+  },
+  {
+    "name": "Aliva Priva Jardin",
+    "date": "26,july,2023",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "/footbalimg/arsenal1.jpg"
+  },
+  {
+    "name": "Asatti Garden City",
+    "date": "15,june,2023",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "/footbalimg/arsenal1.jpg"
+  },
+  {
+    "name": "Citralan Puri Serang",
+    "date": "26,may,2023",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "/footbalimg/arsenal3.jpg"
+  }
+]

@@ -1,17 +1,19 @@
+"use client";
 import Link from "next/link";
 import { resolve } from "styled-jsx/css";
 import Thumbnail from "./components/Thumbnail";
 import Recentpost from "./components/recentpost";
 import Videopart from "./components/Videopart";
-
-async function fetchrepos() {
-  const response = await fetch("https://api.github.com/users/Gedeon-42/repos");
-  await new Promise((resolve) => setTimeout(resolve, 2000)); // wai 1second to laod data
-  const repos = await response.json();
-  return repos;
-}
+import Popularpost from "./components/Popularpost";
+import Mostcomments from "./components/mostcomments/mostcomm";
+// async function fetchrepos() {
+//   const response = await fetch("https://api.github.com/users/Gedeon-42/repos");
+//   await new Promise((resolve) => setTimeout(resolve, 2000)); // wai 1second to laod data
+//   const repos = await response.json();
+//   return repos;
+// }
 const Homepage = async () => {
-  const repos = await fetchrepos();
+  //const repos = await fetchrepos();
   //console.log(repos);
 
   return (
@@ -19,7 +21,9 @@ const Homepage = async () => {
       <Thumbnail />
       <Recentpost />
       <Videopart />
-      <div>
+      <Popularpost />
+      <Mostcomments />
+      {/* <div>
         {repos.map((repo) => (
           <div key={repo.id}>
             <Link href={`/football/category/cat/${repo.name}`}>
@@ -29,7 +33,7 @@ const Homepage = async () => {
             <p>{repo.stargazers_count}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

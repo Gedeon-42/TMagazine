@@ -1,6 +1,12 @@
 const Videopart = () => {
   return (
     <section className="video-part">
+      <div className="all-video">
+        <h3>in motion</h3>
+        <h3>
+          <a href="">all videos</a>
+        </h3>
+      </div>
       <div className="video-container">
         <div className="main-video">
           <video src="/video/video1.mp4" controls />
