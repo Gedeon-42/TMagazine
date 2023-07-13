@@ -25,7 +25,7 @@ const Footerbar = () => {
             </div>
           </div>
           <div className="related-content-footer">
-            <img src="/footbalimg/arsenal1.jpg" />
+            <img src="/footbalimg/arsenal2.jpg" />
             <div className="footer-desc">
               <h3>
                 <a href="">amafoto utabonye kumukino wa rayon</a>
@@ -34,7 +34,7 @@ const Footerbar = () => {
             </div>
           </div>
           <div className="related-content-footer">
-            <img src="/footbalimg/arsenal1.jpg" />
+            <img src="/footbalimg/real2.jpg" />
             <div className="footer-desc">
               <h3>
                 <a href="">amafoto utabonye kumukino wa rayon</a>

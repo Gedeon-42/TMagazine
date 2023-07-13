@@ -11,16 +11,19 @@ const Thumbnail = () => {
             <Link href="" className="btn-link">
               football
             </Link>
-            <h1>Ferwafa yabonye umuyobozi mushya</h1>
-            <span>
+            <h1>
+              {" "}
+              <a href="">Ferwafa yabonye umuyobozi mushya</a>
+            </h1>
+            <span className="date">
               <FaPencilAlt />
               26 june,2023
             </span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-              beatae odio autem error accusantium doloribus, eos magni
-              reprehenderit reiciendis nobis. Nobis perspiciatis obcaecati
-              eligendi doloremque labore in quod provident error?
+              Ishyirahamwe ry'umupira w'amaguru ( FERWAFA) ryabonye umuyobozi
+              mushya ariwe Munyentwari Alphonse watorewe kuba umuyobozi mukuru
+              wa FERWAFA akugirizwa na Habyarimana Matiku Marcel naho Visi
+              Perezida wa kabiri ushinzwe Tekiniki akaba Mugisha Richard.
             </p>
           </div>
           <div className="img-content-wapper">

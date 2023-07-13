@@ -15,8 +15,10 @@ const Mostcomments = () => {
             <SwiperSlide key={i}>
               <div className="r-card">
                 <img src={card.image} alt="" />
-                <h3>{card.name}</h3>
-                <p>{card.date}</p>
+                <div className="r-content">
+                  <h3>{card.name}</h3>
+                  <p>{card.date}</p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

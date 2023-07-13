@@ -8,7 +8,7 @@ const Popularpost = () => {
       <div className="main-popular">
         <h3>popular</h3>
         <div className="main-desc">
-          <img src="footbalimg/ferwafa1.jpg" />
+          <img src="footbalimg/Ferwafa5.jpg" />
           <h3>
             <a href="">Ferwafa yabonye umuyobozi mushya</a>
           </h3>

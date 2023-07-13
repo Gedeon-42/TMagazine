@@ -14,25 +14,24 @@ const Recentpost = () => {
         <div className="post-container">
           <h1>Lates Post</h1>
           <div className="post-content">
-            <img src="footbalimg/ferwafa3.jpg" />
+            <img src="footbalimg/mancity5.jpg" />
             <div className="post-desc">
               <a href="" className="category-link">
                 football
               </a>
-              <h3> amavubi yatwaye zone 5 muri BAL</h3>
-              <p>
-                26june
-                <span>
-                  {" "}
-                  <FaClock /> 2mins read
-                </span>
-              </p>
+              <h3>
+                {" "}
+                <a href=""> man city yatwaye igikombe cya championa</a>{" "}
+              </h3>
+              <span className="date">
+                26june <FaClock /> 2mins read
+              </span>
 
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
+                Ishyirahamwe ry'umupira w'amaguru ( FERWAFA) ryabonye umuyobozi
+                mushya ariwe Munyentwari Alphonse watorewe kuba umuyobozi mukuru
+                wa FERWAFA akugirizwa na Habyarimana Matiku Marcel naho Visi
+                Perezida wa kabiri ushinzwe Tekiniki akaba Mugisha Richard.
               </p>
               <a href="" className="readmore">
                 READ MORE{" "}
@@ -48,12 +47,18 @@ const Recentpost = () => {
               <a href="" className="category-link">
                 volleyball
               </a>
-              <h3> amavubi yatwaye zone 5 muri BAL</h3>
+              <h3>
+                {" "}
+                <a href="">Ferwafa yanzuye inteko rusange</a>
+              </h3>
+              <span className="date">
+                26june <FaClock /> 2mins read
+              </span>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
+                Ishyirahamwe ry'umupira w'amaguru ( FERWAFA) ryabonye umuyobozi
+                mushya ariwe Munyentwari Alphonse watorewe kuba umuyobozi mukuru
+                wa FERWAFA akugirizwa na Habyarimana Matiku Marcel naho Visi
+                Perezida wa kabiri ushinzwe Tekiniki akaba Mugisha Richard.
               </p>
               <a href="" className="readmore">
                 READ MORE{" "}
@@ -64,17 +69,22 @@ const Recentpost = () => {
             </div>
           </div>
           <div className="post-content">
-            <img src="footbalimg/Ferwafa1.jpg" />
+            <img src="footbalimg/arsenal2.jpg" />
             <div className="post-desc">
               <a href="" className="category-link">
                 basketball
               </a>
-              <h3> amavubi yatwaye zone 5 muri BAL</h3>
+              <h3>
+                <a href="">Jorginho yongereye amasezerano</a>{" "}
+              </h3>
+              <span className="date">
+                26june <FaClock /> 2mins read
+              </span>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error !
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
+                Ishyirahamwe ry'umupira w'amaguru ( FERWAFA) ryabonye umuyobozi
+                mushya ariwe Munyentwari Alphonse watorewe kuba umuyobozi mukuru
+                wa FERWAFA akugirizwa na Habyarimana Matiku Marcel naho Visi
+                Perezida wa kabiri ushinzwe Tekiniki akaba Mugisha Richard.
               </p>
               <a href="" className="readmore">
                 READ MORE{" "}
@@ -90,12 +100,18 @@ const Recentpost = () => {
               <a href="" className="category-link">
                 volleyball
               </a>
-              <h3> amavubi yatwaye zone 5 muri BAL</h3>
+              <h3>
+                {" "}
+                <a href="">vision yamanutse mucyakabiri L</a>{" "}
+              </h3>
+              <span className="date">
+                26june <FaClock /> 2mins read
+              </span>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore ad alias accusamus esse in obcaecati aliquam error
+                Ishyirahamwe ry'umupira w'amaguru ( FERWAFA) ryabonye umuyobozi
+                mushya ariwe Munyentwari Alphonse watorewe kuba umuyobozi mukuru
+                wa FERWAFA akugirizwa na Habyarimana Matiku Marcel naho Visi
+                Perezida wa kabiri ushinzwe Tekiniki akaba Mugisha Richard.
               </p>
               <a href="" className="readmore">
                 READ MORE{" "}
@@ -146,12 +162,10 @@ const Recentpost = () => {
                 />
                 <div className="related-link">
                   <a href="" className="category-link">
-                    volleyball
+                    football
                   </a>
                   <h3>
-                    <a href="">
-                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
-                    </a>
+                    <a href="">vision yamanutse mucyiciro cya kane</a>
                   </h3>
                 </div>
               </div>
@@ -169,9 +183,7 @@ const Recentpost = () => {
                     volleyball
                   </a>
                   <h3>
-                    <a href="">
-                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
-                    </a>
+                    <a href="">Amagaju yagarutse mucyiciro cyambere</a>
                   </h3>
                 </div>
               </div>
@@ -189,9 +201,7 @@ const Recentpost = () => {
                     volleyball
                   </a>
                   <h3>
-                    <a href="">
-                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
-                    </a>
+                    <a href="">mukura yaguze umukinnyi ukomeye</a>
                   </h3>
                 </div>
               </div>
@@ -209,9 +219,7 @@ const Recentpost = () => {
                     volleyball
                   </a>
                   <h3>
-                    <a href="">
-                      Lorem ipsum dolor sit amet consectetur Saepe ullam aliquam
-                    </a>
+                    <a href="">Urwanda rwatwaye irushanwa ryisi</a>
                   </h3>
                 </div>
               </div>

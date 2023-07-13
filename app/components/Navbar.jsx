@@ -6,8 +6,9 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-link">
           <div className="logo">
-            <h2>kora magazine</h2>
+            <h2>DAILY MAG</h2>
           </div>
+          <Link href="/">home </Link>
           <Link href="/football">football </Link>
           <Link href="/basketball">basketball</Link>
           <Link href="/volleyball">volleyball </Link>

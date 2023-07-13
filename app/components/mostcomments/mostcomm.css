@@ -9,28 +9,31 @@
   padding: 1rem;
   border-radius: 10px;
   transition: all 300ms ease-in;
-  border: 1px solid black;
   position: relative;
 }
 .r-card > img {
   width: 100%;
   max-height: 10rem;
   max-width: 15rem;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%); */
 }
-.r-card h3 {
+.r-card .r-content {
+  position: absolute;
+  bottom: 10%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 15rem;
+}
+.r-content h3 {
   font-size: 16px;
   font-weight: 600;
-  position: absolute;
-  bottom: 10%;
   color: white;
 }
-.r-card p {
-  font-size: 12px;
-  color: antiquewhite;
-  position: absolute;
-  bottom: 10%;
+.r-content p {
+  color: lightgrey;
+  font-size: 13px;
 }
 .r-buttons {
   gap: 1rem;
